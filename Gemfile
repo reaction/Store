@@ -9,6 +9,7 @@ gem 'sqlite3'
 gem 'heroku'
 
 #spree stuff
+gem 'deface'
 gem 'spree'
 gem 'spree_static_content'
 gem 'spree_editor', :git => "git://github.com/romul/spree_editor.git"
