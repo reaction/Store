@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9'
+gem 'rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -13,7 +13,10 @@ gem 'spree'
 gem 'spree_static_content'
 gem 'spree_editor', :git => "git://github.com/romul/spree_editor.git"
 gem 'spree_product_assembly', :git => 'git://github.com/spree/spree-product-assembly.git'
-gem 'spree-paypal-express'
+gem "spree_paypal_express", :git => "git://github.com/spree/spree_paypal_express.git"
+gem 'spree_store_credits'
+gem "spree_email_to_friend"
+gem "spree_affiliate"
 gem 'spree_heroku', '1.0.0', :git => 'git://github.com/paxer/spree-heroku.git'
 gem 'aws-s3'
 
