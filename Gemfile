@@ -17,6 +17,9 @@ gem "spree_paypal_express", :git => "git://github.com/spree/spree_paypal_express
 gem 'spree_store_credits'
 gem "spree_email_to_friend"
 gem "spree_affiliate"
+gem 'spree_mobile_views'
+gem "spree_advanced_cart", :git => "git://github.com/romul/spree_advanced_cart.git"
+gem 'import_products', :git => 'git://github.com/joshmcarthur/spree-import-products.git'
 gem 'spree_heroku', '1.0.0', :git => 'git://github.com/paxer/spree-heroku.git'
 gem 'aws-s3'
 
