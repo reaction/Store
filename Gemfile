@@ -6,6 +6,17 @@ gem 'rails', '3.0.9'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'heroku'
+
+#spree stuff
+gem 'spree'
+gem 'spree_static_content'
+gem 'spree_editor', :git => "git://github.com/romul/spree_editor.git"
+gem 'spree_product_assembly', :git => 'git://github.com/spree/spree-product-assembly.git'
+gem 'spree-paypal-express'
+gem 'spree_heroku', '1.0.0', :git => 'git://github.com/paxer/spree-heroku.git'
+gem 'aws-s3'
+
 
 # Use unicorn as the web server
 # gem 'unicorn'
